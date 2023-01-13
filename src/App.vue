@@ -1,6 +1,16 @@
 <template>
-  <p>Base do projeto</p>
+  <box-product />
 </template>
+
+<script>
+import BoxProduct from "./components/BoxProduct.vue";
+
+export default {
+  components: {
+    BoxProduct,
+  },
+};
+</script>
 
 <style scoped>
 body {
