@@ -1,6 +1,8 @@
 <template>
   <main class="w-screen h-screen flex items-center justify-center">
-    <div>foto</div>
+    <div>
+      <dynamic-image urlImage="/images/margo2_rose" />
+    </div>
     <div>
       <div class="flex flex-col gap-3 mb-4">
         <span class="font-main text-primary font-light text-[0.625rem]"
@@ -21,3 +23,13 @@
     </div>
   </main>
 </template>
+
+<script>
+import DynamicImage from "./DynamicImage.vue";
+
+export default {
+  components: {
+    DynamicImage,
+  },
+};
+</script>
