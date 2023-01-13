@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     colors: {
       primary: "#271A45",
+      background: "#D9CDF7",
     },
     fontFamily: {
       highlight: ['"Crimson Pro"', "serif"],
