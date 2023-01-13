@@ -1,5 +1,7 @@
 <template>
-  <main class="w-screen h-screen flex items-center justify-center">
+  <main
+    class="w-screen h-screen flex flex-col-reverse items-center justify-center md:flex-row"
+  >
     <div>
       <dynamic-image urlImage="/images/margo2_rose" />
     </div>
