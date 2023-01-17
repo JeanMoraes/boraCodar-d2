@@ -6,8 +6,8 @@
         <icon-close v-else />
       </button>
     </div>
-    <img v-if="!isActive" :src="`${urlImage}.jpg`" class="productImg" />
-    <img v-else :src="`${urlImage}-animation.gif`" class="productImg" />
+    <img v-if="!isActive" :src="`${urlImage}.jpg`" class="productImg" @click="handleAnimation()" />
+    <img v-else :src="`${urlImage}-animation.gif`" class="productImg" @click="handleAnimation()" />
   </div>
 </template>
 
